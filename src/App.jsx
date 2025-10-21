@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Agence from './pages/agence'
+import Agence from "./pages/Agence"
+
 import Projects from './pages/projects'
 import Navbar from './components/Navigation/Navbar'
 import { useEffect } from 'react'
-import LocomotiveScroll from 'locomotive-scroll';
 import PageNavigation from './components/Navigation/PageNavigation'
 const App = () => {
 
