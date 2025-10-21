@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { assets } from '../../assets/asset'
+import { assets } from '../../assets/asset.js'
 const PageNavigation = () => {
   const navigationVisibleRef = useRef(null)
   return (
