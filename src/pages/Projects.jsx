@@ -38,7 +38,6 @@ const Projects = () => {
       height: 10,
       scrollTrigger:{
         trigger:".card",
-        markers:true,
         scrub:2,
         start:"top 80%",
         end:"top -200%",
