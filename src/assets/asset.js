@@ -27,7 +27,6 @@ import nine from "../assets/nine.jpg"
 import tenth from "../assets/tenth.jpg"
 import eleven from "../assets/eleven.jpg"
 import twelth from "../assets/twelth.jpg"
-import { Tween } from 'gsap/gsap-core'
 
 export const assets = {
     cammel,
