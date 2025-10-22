@@ -9,6 +9,7 @@ const HeroTopText = () => {
       y:-600,
       opacity:0,
       delay:3,
+      stagger:true
     })
   })
   return (

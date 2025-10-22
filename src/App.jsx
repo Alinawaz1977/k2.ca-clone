@@ -7,9 +7,8 @@ import Projects from './pages/Projects'
 import Navbar from './components/Navigation/Navbar'
 import { useEffect } from 'react'
 import PageNavigation from './components/Navigation/PageNavigation'
+import Lenis from 'lenis'
 const App = () => {
-
-
   return (
     <div className='w-full h-screen' >
       {/* <PageNavigation/> */}
@@ -17,7 +16,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/agence' element={<Agence />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/projets' element={<Projects />} />
         <Route path='/navbar' element={<PageNavigation/>} />
       </Routes> 
     </div>

@@ -14,13 +14,13 @@ const StairAnimation = (props) => {
         timeLine.from('.stair', {
             height: 0,
             stagger: {
-                amount: -.25
+                amount: -.15
             }
         })
         timeLine.to('.stair', {
             y: "100%",
             stagger: {
-                amount: -.25
+                amount: -.15
             }
         }),
             timeLine.to('.stairParent', {

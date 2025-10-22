@@ -31,6 +31,7 @@ const Agence = () => {
         start: "top 55%",
         end: "top -12%",
         scrub: true,
+        markers:true,
         pin: true,
         onUpdate: (e) => {
           let imageIndex
@@ -47,8 +48,8 @@ const Agence = () => {
   return (
     <div>
       <div className='section1 py-1' >
-        <div ref={imageDivRef} className=' w-[16vw] rounded-3xl left-[30%] h-[20vw] top-[55%] absolute ' >
-          <img className='rounded-3xl' loading='lazy' ref={imageRef} src="image" alt="sdf" />
+        <div ref={imageDivRef} className=' w-[100px] md:w-[16vw] rounded-3xl left-[30%] h-[20vw] top-[55%] absolute ' >
+          <img className='rounded-3xl ' loading='lazy' ref={imageRef} src="image" alt="sdf" />
         </div>
         <div className='font-[font2] relative z-10 leading-[17vw] text-center mt-[50%] uppercase' >
           <h1 className='text-[20vw]' >soixan7e<br />douze</h1>
