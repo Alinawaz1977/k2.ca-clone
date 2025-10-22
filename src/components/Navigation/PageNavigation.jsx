@@ -42,9 +42,9 @@ const PageNavigation = () => {
           <div ref={navigationVisibleRef} className='flex moveX w-fit transform opacity-100 absolute top-0' >
             <div onClick={()=>navigation("/contact")} className='flex items-center shrink-0 pt-2 bg-[#d3fd50] opacity-0 hover:opacity-100  text-black font-[font2]' >
               <h1 className=' text-[6vw] uppercase' >pour voit water</h1>
-              <img className=' w-60 h-18 object-cover rounded-full ' src={assets.firstLineimage} alt="" />
+              <img className=' w-60 h-18 object-cover rounded-full ' src={assets.firstLineImage} alt="" />
               <h1 className=' text-[6vw] uppercase' >pour voit water</h1>
-              <img className=' w-60 h-18 object-cover rounded-full ' src={assets.firstLineimag2} alt="" />
+              <img className=' w-60 h-18 object-cover rounded-full ' src={assets.firstLineImag2} alt="" />
               <h1 className=' text-[6vw] uppercase' >pour voit water</h1>
               <img className='w-60 h-18 object-cover rounded-full ' src={assets.hugo} alt="" />
               <h1 className=' text-[6vw] uppercase' >pour voit water</h1>
